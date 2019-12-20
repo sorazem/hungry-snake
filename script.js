@@ -1,6 +1,7 @@
 const canvas = document.getElementById("arena");
 const context = canvas.getContext("2d");
 const comer = document.getElementById("comer");
+const gameOver = document.getElementById("game-over");
 let jogo;
 
 const grid = 24; //tamanho de uma coluna na arena
@@ -85,6 +86,7 @@ function iniciar(){
 	//Checa se a cobra colidiu com uma parte de si
     for(i = 1; i < cobra.length; i++){
         if(cobra[0].x == cobra[i].x && cobra[0].y == cobra[i].y){
+			gameOver.play();
 			console.log("Fim");
             clearInterval(jogo);
         }
