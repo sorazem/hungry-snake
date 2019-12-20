@@ -150,10 +150,17 @@ function iniciar(){
 function inicializar(){
 	clearInterval(jogo);
 	pontuacao = 0;
-	direcao=null;
+	direcao=null; // começa parado
+	
+	//Limpando o canvas
 	context.fillStyle="white";
 	context.fillRect(0,0,canvas.width,canvas.height);
+	
+	//Cobra inicial tem tamanho 1 e começa no meio da arena
 	cobra.length = 1;
+	cobra[0].x = 6 * grid;
+	cobra[0].y = 6 * grid;
 	criaCobra();
+	
 	jogo = setInterval(iniciar, 150);
 }

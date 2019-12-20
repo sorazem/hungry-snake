@@ -1,5 +1,6 @@
 body{
 	background-color: #B0D4BF;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1{
@@ -7,31 +8,17 @@ h1{
 	font-size: 3.2rem !important;
 }
 
-p{
-	font-family: 'Open-Sans', sans-serif;
-	font-size: 1.5rem;
-	margin: 0;
-}
-
-a{
-	font-family: 'Open-Sans', sans-serif;
-	margin-top: 2rem;
+p > a{
+	color: #ec407a;
 }
 
 img{
-	width: 20px;
-	height: 20px;
-	margin-right: 4px;
+	width: 3rem;
+	height: 3rem;
 }
 
 #arena{
 	border: 1px solid black;
-}
-
-#flex{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 #about{
@@ -41,19 +28,55 @@ img{
 	background-color: white;
 }
 
+#pontuacao, #recorde{
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+#right{
+	justify-content: flex-end;
+}
+
+.score{
+	width: 156px;
+	padding: .25rem .75rem !important;
+}
+
+.flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .flex-row{
 	display: flex;
 	flex-direction: row;
-	align-items: baseline;
+	align-items: center;
 }
 
 .btn{
 	background-color: #50956d !important;
+	margin-top: 2rem;
 }
 
-.avatar{
+.padding{
+	padding: 1em;
+}
+
+.flex > img{
 	width: 15vw;
 	height: 15vw;
 	border-radius: 50%;
 	object-fit: cover;
+}
+
+.flex-row > img{
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+}
+
+.row:nth-child(2){
+	margin-bottom: 8px;
+	border: 1px dashed black;
 }
