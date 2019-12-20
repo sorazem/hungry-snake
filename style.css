@@ -30,6 +30,10 @@ img{
 	background-color: white;
 }
 
+#about-small{
+	margin-bottom: 0;
+}
+
 #pontuacao, #recorde{
 	font-size: 1.5rem;
 	margin: 0;
@@ -81,4 +85,11 @@ img{
 .row:nth-child(2){
 	margin-bottom: 8px;
 	border: 1px dashed black;
+}
+
+@media only screen and (max-width: 992px) {
+  .flex > img{
+    width: 12rem;
+	height: 12rem;
+  }
 }
