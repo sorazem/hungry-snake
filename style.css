@@ -1,5 +1,7 @@
 body{
 	background-color: #B0D4BF;
+	background-image: url("img/bg.png");
+	background-repeat: repeat;
 	font-family: 'Raleway', sans-serif;
 }
 

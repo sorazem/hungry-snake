@@ -1,5 +1,6 @@
 const canvas = document.getElementById("arena");
 const context = canvas.getContext("2d");
+const comer = document.getElementById("comer");
 let jogo;
 
 const grid = 24; //tamanho de uma coluna na arena
@@ -116,6 +117,7 @@ function iniciar(){
 	if(cobraX != comida.x || cobraY != comida.y){
         cobra.pop();
     }else{
+		comer.play();
 		pontuacao++;
 		document.getElementById("pontuacao").innerHTML = pontuacao; //Mostra a pontuação na tela
 		novaComida();
