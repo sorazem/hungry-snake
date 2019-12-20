@@ -1,0 +1,59 @@
+body{
+	background-color: #B0D4BF;
+}
+
+h1{
+	font-family: 'Anton', sans-serif;
+	font-size: 3.2rem !important;
+}
+
+p{
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 1.5rem;
+	margin: 0;
+}
+
+a{
+	font-family: 'Open-Sans', sans-serif;
+	margin-top: 2rem;
+}
+
+img{
+	width: 20px;
+	height: 20px;
+	margin-right: 4px;
+}
+
+#arena{
+	border: 1px solid black;
+}
+
+#flex{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#about{
+	float: left;
+	width: 25vw;
+	height: 100vh;
+	background-color: white;
+}
+
+.flex-row{
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
+}
+
+.btn{
+	background-color: #50956d !important;
+}
+
+.avatar{
+	width: 15vw;
+	height: 15vw;
+	border-radius: 50%;
+	object-fit: cover;
+}
