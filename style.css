@@ -34,7 +34,36 @@ img{
 	margin-bottom: 0;
 }
 
-#pontuacao, #recorde{
+#sidenav a{
+	position: absolute;
+	right: 2px;
+	padding: 15px;
+	width: 110px;
+	border-radius: 10px 0 0 10px;
+	color: #ec407a;
+}
+
+#sidenav a:hover{
+	text-decoration: underline;
+}
+
+#sidenav > .active{
+	color: white;
+	background-color: #ec407a;
+	width: 120px;
+}
+
+#single{
+	top: 40px;
+	background-color: white;
+}
+
+#multi{
+	top: 100px;
+	background-color: white;
+}
+
+#pontuacao, #recorde, #pontuacao1, #pontuacao2{
 	font-size: 1.5rem;
 	margin: 0;
 }
