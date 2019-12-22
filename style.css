@@ -10,6 +10,10 @@ h1{
 	font-size: 3.2rem !important;
 }
 
+h3{
+	font-size: 1.3rem !important;
+}
+
 p > a{
 	color: #ec407a;
 }
@@ -26,7 +30,7 @@ img{
 #about{
 	float: left;
 	width: 25vw;
-	height: 100vh;
+	min-height: 100%;
 	background-color: white;
 }
 
